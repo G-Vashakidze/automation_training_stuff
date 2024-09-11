@@ -1,0 +1,33 @@
+# Ignore IntelliJ IDEA-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore Maven/Gradle build output (depending on your build tool)
+target/
+out/
+build/
+
+# Ignore compiled class files
+*.class
+
+# Ignore project-specific IDE config files
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/shelf/
+
+# Ignore Allure Reports
+allure-results/
+allure-report/
+
+# Ignore other generated files
+*.swp
+*.tmp
